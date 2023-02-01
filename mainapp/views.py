@@ -24,3 +24,10 @@ def contact(request):
 		return render(request, 'contact.html', {'name':name})
 	else:
 		return render(request, 'contact.html', {})
+
+
+def faq(request):
+	return render(request, 'faq.html', {})
+
+def about(request):
+	return render(request, 'about.html', {})
